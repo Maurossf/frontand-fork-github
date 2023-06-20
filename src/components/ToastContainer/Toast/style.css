@@ -1,0 +1,18 @@
+.delayToast {
+  background-color: black;
+  opacity: 0.05;
+  height: 10px;
+  margin-top: 10px;
+  animation-name: downgrade;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes downgrade {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}

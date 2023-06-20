@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  background-color: rgb(100, 100, 100);
+  width: 100%;
+  margin: auto auto;
+  height: 130px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 500px;
+}
+
+nav div {
+  align-items: center;
+  display: flex;
+}
+
+nav div img {
+  width: 130px;
+  margin-right: 15px;
+}
+
+nav span {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav div a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: black;
+}
+nav div a:hover {
+  /* color: ; */
+}
